@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    color: darkred;
+}
+h1{
+    color: black;
+    font-size: x-large;
+    justify-content: center;
+    margin-left: 120px;
+    
+}
+header .container{
+    display: flex;
+    align-items: flex;
+    justify-content: space-between;
+}
+header .container h1{
+    font-size: 43px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body > header {
+    background-color: rgb(149, 149, 250);
+    height: 80px;
+    width: 1380px;
+}
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+header li a {
+    text-decoration: none;
+    color: red;
+}
+.container{
+    width: 1380px;
+    margin: 0 auto;
+}
+.container a{
+    margin-left: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+        
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.articles article img {
+    width: 100%;
+    border: dotted black;
+}
+.articles article {
+    width: 30%;
+    
+}
+section{
+    padding: 16px 0;
+}
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.articles article a{
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    
+    
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+.articles article, .articles article a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.articles article h3{
+    font-size: 24px;
+
+}
+section h2 {
+    font-size: 32px;
+}
+section p{
+    max-width: 300px center;
+    color: black;
+    
+}
+#sports{
+    background-color: rgba(red, green, blue, alpha);
+}
+#sports .articles article a{
+    background-color: #e34;
+}
+#economia {
+    background-color: rgb(146,208,80, 0.3);
+}
+#economia .articles article a {
+    background-color: #285;
+    
+
+}
+#entretendimento{
+    background-color: rgba(247,221,108,0.3);
+}
+#entretendimento .articles article a {
+    background-color: #17f;
+    
+}
+#moda{
+    background-color: rgb(235, 199, 205);
+    
+}
+#kids{
+    background-color: rgb(193, 240, 241);
+    
+}
